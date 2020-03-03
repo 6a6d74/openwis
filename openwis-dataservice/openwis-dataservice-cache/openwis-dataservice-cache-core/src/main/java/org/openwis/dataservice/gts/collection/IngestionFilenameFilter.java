@@ -30,7 +30,7 @@ public class IngestionFilenameFilter implements FileFilter {
 				
 				
 			}
-		};
+		}
 	
 	public IngestionFilenameFilter(Pattern[] includePatterns, Pattern[] excludePatterns){
 		this.includePatterns = includePatterns;
